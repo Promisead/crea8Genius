@@ -1,0 +1,136 @@
+/*banner section*/
+.banner-section .wp-block-column{
+    position: absolute;
+    left: 18%;
+    top: 34%;
+    right: 50%;
+}
+.banner-section .wp-block-button__link{
+    color: #000 !important;
+    font-weight: 600 !important;
+    padding: 10px 15px;
+}
+.banner-section .wp-block-button__link:hover{
+    background: #000 !important;
+    color: #fff !important;
+}
+.banner-section h1{
+    margin: 0 0 10px !important;
+    position: relative;
+    font-size: 30px;
+    display: inline;
+    padding: 0px 0px 5px 0px !important;
+}
+.banner-section h1:after{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 20px;
+    left: 0;
+    top: 118px;
+    content: "";
+    width: 100px;
+    height: 3px;
+    display: block;
+    margin: 12px auto 0;
+}
+.banner-section p{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+/*about section*/
+.about-section{
+    margin-top: 30px;
+}
+.about-col-1 .wp-block-image img{
+    width: 100% !important;
+}
+.about-arrow p:before{
+    font-family: 'Font Awesome 5 Free';
+    content: "\f101";
+    margin-right: 10px;
+    font-size: 25px !important;
+    font-weight: 900;
+}
+.about-section h2:after{
+    position: absolute;
+    background-color: #000;
+    border-radius: 20px;
+    left: 0;
+    top: 40px;
+    content: "";
+    width: 112px;
+    height: 3px;
+    display: block;
+    margin: 12px auto 0;
+}
+.about-section h2 {
+    margin: 0 0 10px !important;
+    position: relative;
+    font-size: 30px;
+    display: inline;
+    padding: 0px 0px 5px 0px !important;
+}
+.about-para{
+    margin-top: 30px;
+}
+.about-section .wp-block-button__link:hover{
+    background:#014678!important;
+    color: #fff !important;
+}
+/*resonsive*/
+@media screen and (max-width: 720px) {
+    .banner-section .wp-block-column{
+        left: 24%;
+        top: 34%;
+        right: 6%;
+    }
+    .about-section h2:after{
+        top: 74px;
+    }
+    .banner-section{
+        min-height: 150px !important;
+    }
+    .banner-section h1, .banner-section p{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 767px) {
+    .banner-section .wp-block-column{
+        left: 10%;
+        top: 18%;
+        right: 18%;
+    }
+    .about-section h2:after{
+        top: 74px;
+    }
+    .banner-section{
+        min-height: 350px !important;
+    }
+    .banner-section p, .banner-section h1:after{
+        display: none;
+    }
+    .about-section .wp-block-columns{
+        flex-wrap: nowrap !important;
+    }
+    .banner-section .wp-block-buttons .wp-block-button{
+        margin: 15px 0 15px !important;
+    }
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 1000px) {
+    .banner-section .wp-block-column{
+        left: 10%;
+        top: 18%;
+    }
+    .banner-section{
+        min-height: 450px !important;
+    }
+    .banner-section h1:after{
+        top: 170px;
+    }
+    .about-section h2:after {
+        top: 40px;
+    }
+}

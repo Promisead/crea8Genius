@@ -1,0 +1,83 @@
+/*font family*/
+.banner-section h1, .banner-section p, .banner-section .wp-block-button__link,
+.about-section h2, .about-section p, .about-section .wp-block-button__link, .about-arrow p{
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*banner section*/
+.banner-section .wp-block-column{
+    position: absolute;
+    left: 26%;
+    top: -100px;
+    right: 42%;
+}
+.banner-section .wp-block-button__link{
+    color: #000 !important;
+    font-weight: 500 !important;
+    padding: 10px 15px;
+}
+.banner-section .wp-block-button__link:hover{
+    background: #000 !important;
+    color: #fff !important;
+}
+.banner-section h1{
+    margin: 0 0 10px !important;
+    position: relative;
+    font-size: 30px;
+    display: inline;
+    padding: 0px 0px 5px 0px !important;
+}
+.banner-section h1:after{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 20px;
+    left: 0;
+    top: 118px;
+    content: "";
+    width: 100px;
+    height: 3px;
+    display: block;
+    margin: 12px auto 0;
+}
+.banner-section p{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+/*about section*/
+.about-section{
+    margin-top: 30px;
+}
+.about-section{
+    margin-top: 10px !important;
+}
+.about-col-1 .wp-block-image img{
+    width: 100% !important;
+}
+.about-section h2:after{
+    position: absolute;
+    background-color: #000;
+    border-radius: 20px;
+    left: 0;
+    top: 72px;
+    content: "";
+    width: 112px;
+    height: 3px;
+    display: block;
+    margin: 12px auto 0;
+}
+.about-section h2 {
+    margin: 0 0 10px !important;
+    position: relative;
+    font-size: 30px;
+    display: inline;
+    padding: 0px 0px 5px 0px !important;
+}
+.about-para{
+    margin-top: 30px !important;
+}
+.about-section .wp-block-button__link:hover{
+    background:#014678!important;
+    color: #fff !important;
+}
